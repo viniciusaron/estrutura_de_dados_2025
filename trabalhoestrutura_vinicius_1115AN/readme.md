@@ -1,7 +1,7 @@
 Instruções
 
  
-Na aula teórica (Slide 07), aprendemos a teoria sobre Pilhas e Filas. A partir disso, é necessário implementar essas estruturas.
+Na aula teórica, aprendemos a teoria sobre Pilhas e Filas. A partir disso, é necessário implementar essas estruturas.
 
  
 Você pode fazer com seus colegas de classe, mas a entrega é individual.
