@@ -1,17 +1,23 @@
-Instruções:
+Instruções
 
-Na aula teórica, aprendemos a teoria sobre Pilhas e Filas. A partir disso, é necessário implementar essas estruturas.
+ 
+Na aula teórica (Slide 07), aprendemos a teoria sobre Pilhas e Filas. A partir disso, é necessário implementar essas estruturas.
 
+ 
 Você pode fazer com seus colegas de classe, mas a entrega é individual.
 
-Implementar a estrutura da Pilha baseada em vetores, devendo possuir os métodos que:
+ 
+01) Implementar a estrutura da Pilha baseada em vetores, devendo possuir os métodos que:
+
 inserir ao topo (empilhar) - Feito
 
 remover do topo (desempilhar) - Feito
 
 verificar se a pilha está vazia - Feito
 
-A partir da implementação da pilha, você deverá desenvolver um algoritmo que simule um desfazer/refazer de um editor de texto, que funciona da seguinte forma:
+ 
+02) A partir da implementação da pilha, você deverá desenvolver um algoritmo que simule um desfazer/refazer de um editor de texto, que funciona da seguinte forma:
+
 Usamos duas pilhas:
 
 pilhaDesfazer: armazena os estados anteriores do texto - Feito
@@ -20,7 +26,7 @@ pilhaRefazer: armazena os estados futuros do texto - Feito
 
 Principais operações:
 
-inserirTexto: - Feito
+inserirTexto: - Feito 
 
 Salva o estado atual na pilha de desfazer
 
@@ -58,16 +64,21 @@ Algumas observações importantes:
 
 A pilha de refazer é limpa sempre que uma nova ação é realizada
 
-O sistema mantém um histórico limitado (dependendo da capacidade da pilha)
+O sistema mantém um histórico limitado (dependendo da capacidade da pilha) 
 
-Implementar a estrutura da Fila, devendo possuir os seguintes métodos:
+ 
+
+03) Implementar a estrutura da Fila, devendo possuir os seguintes métodos:
+
 Inserir no final (enfileirar) - Feito
 
 Remover do início (desenfileirar) - Feito
 
 Verificar se a fila está vazia - Feito
 
-A partir da implementação da fila, implemente um algoritmo de fila de impressão, onde os documentos são enfileirados e processados na ordem em que chegam, que funciona da seguinte forma:
+ 
+04) A partir da implementação da fila, implemente um algoritmo de fila de impressão, onde os documentos são enfileirados e processados na ordem em que chegam, que funciona da seguinte forma:
+
 Deve possuir uma classe Documento
 
 Esta classe deve ser implementada por você e possuir o nome e o tamanho
